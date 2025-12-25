@@ -1,0 +1,27 @@
+{
+  "id": "physical-ai/module-2-digital-twin/chapter-3-perception-unity",
+  "title": "Chapter 3 - Perception in Simulation — Unity & Virtual Sensors",
+  "description": "Introduction",
+  "source": "@site/docs/physical-ai/module-2-digital-twin/chapter-3-perception-unity.md",
+  "sourceDirName": "physical-ai/module-2-digital-twin",
+  "slug": "/physical-ai/module-2-digital-twin/chapter-3-perception-unity",
+  "permalink": "/docs/physical-ai/module-2-digital-twin/chapter-3-perception-unity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-2-digital-twin/chapter-3-perception-unity.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Chapter 3 - Perception in Simulation — Unity & Virtual Sensors",
+    "sidebar_label": "Chapter 3: Perception in Simulation — Unity & Virtual Sensors"
+  },
+  "sidebar": "physicalAISidebar",
+  "previous": {
+    "title": "Chapter 2: Physics Comes Alive — Gazebo Simulation",
+    "permalink": "/docs/physical-ai/module-2-digital-twin/chapter-2-physics-gazebo"
+  },
+  "next": {
+    "title": "Chapter 1: NVIDIA Isaac — Intelligence for Physical AI",
+    "permalink": "/docs/physical-ai/module-3-nvidia-isaac/chapter-1-nvidia-isaac-intelligence"
+  }
+}

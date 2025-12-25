@@ -1,0 +1,214 @@
+/**
+ * Enhanced Callout Styling for Physical AI Book
+ * Implements custom styling for different types of callouts with icons and module-specific colors
+ */
+
+/* Custom Insight Callout (💡) with VLA accent color */
+.callout--insight {
+  border-left: 4px solid var(--module-vla-accent);
+  background-color: var(--module-vla-light);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-md) 0;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+}
+
+.callout--insight::before {
+  content: "💡";
+  position: absolute;
+  left: var(--ifm-spacing-md);
+  top: var(--ifm-spacing-sm);
+  font-size: 1.2rem;
+}
+
+.callout--insight .callout-title {
+  font-weight: var(--ifm-font-weight-semibold);
+  margin-bottom: var(--ifm-spacing-sm);
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-sm);
+}
+
+.callout--insight .callout-title::before {
+  content: "💡";
+  font-size: 1.1rem;
+}
+
+/* Custom Mental Model Callout (🧠) with ROS accent color */
+.callout--mental-model {
+  border-left: 4px solid var(--module-ros-accent);
+  background-color: var(--module-ros-light);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-md) 0;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+}
+
+.callout--mental-model::before {
+  content: "🧠";
+  position: absolute;
+  left: var(--ifm-spacing-md);
+  top: var(--ifm-spacing-sm);
+  font-size: 1.2rem;
+}
+
+.callout--mental-model .callout-title {
+  font-weight: var(--ifm-font-weight-semibold);
+  margin-bottom: var(--ifm-spacing-sm);
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-sm);
+}
+
+.callout--mental-model .callout-title::before {
+  content: "🧠";
+  font-size: 1.1rem;
+}
+
+/* Custom System Flow Callout (⚙️) with Digital Twin accent color */
+.callout--system-flow {
+  border-left: 4px solid var(--module-digital-twin-accent);
+  background-color: var(--module-digital-twin-light);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-md) 0;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+}
+
+.callout--system-flow::before {
+  content: "⚙️";
+  position: absolute;
+  left: var(--ifm-spacing-md);
+  top: var(--ifm-spacing-sm);
+  font-size: 1.2rem;
+}
+
+.callout--system-flow .callout-title {
+  font-weight: var(--ifm-font-weight-semibold);
+  margin-bottom: var(--ifm-spacing-sm);
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-sm);
+}
+
+.callout--system-flow .callout-title::before {
+  content: "⚙️";
+  font-size: 1.1rem;
+}
+
+/* Custom Forward Link Callout (🚀) with AI Brain accent color */
+.callout--forward-link {
+  border-left: 4px solid var(--module-ai-brain-accent);
+  background-color: var(--module-ai-brain-light);
+  padding: var(--ifm-spacing-md);
+  margin: var(--ifm-spacing-md) 0;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+}
+
+.callout--forward-link::before {
+  content: "🚀";
+  position: absolute;
+  left: var(--ifm-spacing-md);
+  top: var(--ifm-spacing-sm);
+  font-size: 1.2rem;
+}
+
+.callout--forward-link .callout-title {
+  font-weight: var(--ifm-font-weight-semibold);
+  margin-bottom: var(--ifm-spacing-sm);
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-sm);
+}
+
+.callout--forward-link .callout-title::before {
+  content: "🚀";
+  font-size: 1.1rem;
+}
+
+/* Enhanced standard Docusaurus callouts */
+.alert--info {
+  border-left: 4px solid var(--ifm-color-info);
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.alert--success {
+  border-left: 4px solid var(--ifm-color-success);
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.alert--warning {
+  border-left: 4px solid var(--ifm-color-warning);
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.alert--danger {
+  border-left: 4px solid var(--ifm-color-danger);
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+/* Dark mode adjustments for callouts */
+[data-theme='dark'] .callout--insight {
+  background-color: color-mix(in srgb, var(--module-vla-accent) 20%, transparent);
+}
+
+[data-theme='dark'] .callout--mental-model {
+  background-color: color-mix(in srgb, var(--module-ros-accent) 20%, transparent);
+}
+
+[data-theme='dark'] .callout--system-flow {
+  background-color: color-mix(in srgb, var(--module-digital-twin-accent) 20%, transparent);
+}
+
+[data-theme='dark'] .callout--forward-link {
+  background-color: color-mix(in srgb, var(--module-ai-brain-accent) 20%, transparent);
+}
+
+[data-theme='dark'] .alert--info {
+  background-color: color-mix(in srgb, var(--ifm-color-info) 15%, transparent);
+}
+
+[data-theme='dark'] .alert--success {
+  background-color: color-mix(in srgb, var(--ifm-color-success) 15%, transparent);
+}
+
+[data-theme='dark'] .alert--warning {
+  background-color: color-mix(in srgb, var(--ifm-color-warning) 15%, transparent);
+}
+
+[data-theme='dark'] .alert--danger {
+  background-color: color-mix(in srgb, var(--ifm-color-danger) 15%, transparent);
+}
+
+/* Accessibility enhancements for callouts */
+.callout--insight,
+.callout--mental-model,
+.callout--system-flow,
+.callout--forward-link,
+.alert--info,
+.alert--success,
+.alert--warning,
+.alert--danger {
+  /* Ensure sufficient contrast */
+  color: var(--ifm-font-color-base);
+}
+
+/* Responsive adjustments for callouts */
+@media (max-width: 768px) {
+  .callout--insight,
+  .callout--mental-model,
+  .callout--system-flow,
+  .callout--forward-link {
+    padding: var(--ifm-spacing-sm);
+    margin: var(--ifm-spacing-sm) 0;
+  }
+
+  .callout-title {
+    font-size: 0.95rem;
+  }
+}

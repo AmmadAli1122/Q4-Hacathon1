@@ -1,0 +1,192 @@
+/**
+ * Module-Specific Styling for Physical AI Book
+ * Implements distinct visual identity for each module (ROS, Digital Twin, AI, VLA)
+ */
+
+/* Define CSS variables for module accent colors */
+:root {
+  --module-ros-accent: #3b82f6;          /* ROS 2: Blue */
+  --module-digital-twin-accent: #10b981; /* Digital Twin: Green */
+  --module-ai-brain-accent: #8b5cf6;     /* AI Brain: Purple */
+  --module-vla-accent: #f59e0b;          /* VLA: Orange */
+
+  --module-ros-light: #dbeafe;           /* ROS light */
+  --module-digital-twin-light: #d1fae5;  /* Digital Twin light */
+  --module-ai-brain-light: #e9d5ff;      /* AI Brain light */
+  --module-vla-light: #fef3c7;           /* VLA light */
+}
+
+/* Dark mode module accent colors */
+[data-theme='dark'] {
+  --module-ros-accent: #60a5fa;          /* Lighter blue for dark mode */
+  --module-digital-twin-accent: #34d399; /* Lighter green for dark mode */
+  --module-ai-brain-accent: #a78bfa;     /* Lighter purple for dark mode */
+  --module-vla-accent: #fbbf24;          /* Lighter orange for dark mode */
+}
+
+/* ROS Module Styling */
+/* Apply accent color to headings, links, and navigation in ROS sections */
+html:not([data-theme='dark']) .ros-module h1,
+html:not([data-theme='dark']) .ros-module h2,
+html:not([data-theme='dark']) .ros-module h3,
+html:not([data-theme='dark']) .ros-module h4,
+html:not([data-theme='dark']) .ros-module h5,
+html:not([data-theme='dark']) .ros-module h6 {
+  color: var(--module-ros-accent);
+}
+
+html[data-theme='dark'] .ros-module h1,
+html[data-theme='dark'] .ros-module h2,
+html[data-theme='dark'] .ros-module h3,
+html[data-theme='dark'] .ros-module h4,
+html[data-theme='dark'] .ros-module h5,
+html[data-theme='dark'] .ros-module h6 {
+  color: var(--module-ros-accent);
+}
+
+.ros-module a {
+  color: var(--module-ros-accent);
+}
+
+.ros-module a:hover {
+  color: var(--module-ros-accent);
+  opacity: 0.8;
+}
+
+/* Digital Twin Module Styling */
+/* Apply accent color to headings, links, and navigation in Digital Twin sections */
+html:not([data-theme='dark']) .digital-twin-module h1,
+html:not([data-theme='dark']) .digital-twin-module h2,
+html:not([data-theme='dark']) .digital-twin-module h3,
+html:not([data-theme='dark']) .digital-twin-module h4,
+html:not([data-theme='dark']) .digital-twin-module h5,
+html:not([data-theme='dark']) .digital-twin-module h6 {
+  color: var(--module-digital-twin-accent);
+}
+
+html[data-theme='dark'] .digital-twin-module h1,
+html[data-theme='dark'] .digital-twin-module h2,
+html[data-theme='dark'] .digital-twin-module h3,
+html[data-theme='dark'] .digital-twin-module h4,
+html[data-theme='dark'] .digital-twin-module h5,
+html[data-theme='dark'] .digital-twin-module h6 {
+  color: var(--module-digital-twin-accent);
+}
+
+.digital-twin-module a {
+  color: var(--module-digital-twin-accent);
+}
+
+.digital-twin-module a:hover {
+  color: var(--module-digital-twin-accent);
+  opacity: 0.8;
+}
+
+/* AI Brain Module Styling */
+/* Apply accent color to headings, links, and navigation in AI Brain sections */
+html:not([data-theme='dark']) .ai-brain-module h1,
+html:not([data-theme='dark']) .ai-brain-module h2,
+html:not([data-theme='dark']) .ai-brain-module h3,
+html:not([data-theme='dark']) .ai-brain-module h4,
+html:not([data-theme='dark']) .ai-brain-module h5,
+html:not([data-theme='dark']) .ai-brain-module h6 {
+  color: var(--module-ai-brain-accent);
+}
+
+html[data-theme='dark'] .ai-brain-module h1,
+html[data-theme='dark'] .ai-brain-module h2,
+html[data-theme='dark'] .ai-brain-module h3,
+html[data-theme='dark'] .ai-brain-module h4,
+html[data-theme='dark'] .ai-brain-module h5,
+html[data-theme='dark'] .ai-brain-module h6 {
+  color: var(--module-ai-brain-accent);
+}
+
+.ai-brain-module a {
+  color: var(--module-ai-brain-accent);
+}
+
+.ai-brain-module a:hover {
+  color: var(--module-ai-brain-accent);
+  opacity: 0.8;
+}
+
+/* VLA Module Styling */
+/* Apply accent color to headings, links, and navigation in VLA sections */
+html:not([data-theme='dark']) .vla-module h1,
+html:not([data-theme='dark']) .vla-module h2,
+html:not([data-theme='dark']) .vla-module h3,
+html:not([data-theme='dark']) .vla-module h4,
+html:not([data-theme='dark']) .vla-module h5,
+html:not([data-theme='dark']) .vla-module h6 {
+  color: var(--module-vla-accent);
+}
+
+html[data-theme='dark'] .vla-module h1,
+html[data-theme='dark'] .vla-module h2,
+html[data-theme='dark'] .vla-module h3,
+html[data-theme='dark'] .vla-module h4,
+html[data-theme='dark'] .vla-module h5,
+html[data-theme='dark'] .vla-module h6 {
+  color: var(--module-vla-accent);
+}
+
+.vla-module a {
+  color: var(--module-vla-accent);
+}
+
+.vla-module a:hover {
+  color: var(--module-vla-accent);
+  opacity: 0.8;
+}
+
+/* Module-specific navigation headers */
+.navbar--ros {
+  border-bottom: 3px solid var(--module-ros-accent);
+}
+
+.navbar--digital-twin {
+  border-bottom: 3px solid var(--module-digital-twin-accent);
+}
+
+.navbar--ai-brain {
+  border-bottom: 3px solid var(--module-ai-brain-accent);
+}
+
+.navbar--vla {
+  border-bottom: 3px solid var(--module-vla-accent);
+}
+
+/* Module-specific sidebar styling */
+.menu__list-item--ros .menu__link--active {
+  border-left: 3px solid var(--module-ros-accent);
+}
+
+.menu__list-item--digital-twin .menu__link--active {
+  border-left: 3px solid var(--module-digital-twin-accent);
+}
+
+.menu__list-item--ai-brain .menu__link--active {
+  border-left: 3px solid var(--module-ai-brain-accent);
+}
+
+.menu__list-item--vla .menu__link--active {
+  border-left: 3px solid var(--module-vla-accent);
+}
+
+/* Module-specific section styling */
+.section--ros {
+  border-left: 4px solid var(--module-ros-accent);
+}
+
+.section--digital-twin {
+  border-left: 4px solid var(--module-digital-twin-accent);
+}
+
+.section--ai-brain {
+  border-left: 4px solid var(--module-ai-brain-accent);
+}
+
+.section--vla {
+  border-left: 4px solid var(--module-vla-accent);
+}

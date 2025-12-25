@@ -1,0 +1,181 @@
+openapi: 3.0.0
+info:
+  title: Physical AI Simulation API
+  description: API for accessing Physical AI simulation content and resources programmatically
+  version: 1.0.0
+servers:
+  - url: https://api.physical-ai-sim.com/v1
+    description: Production server
+  - url: https://staging-api.physical-ai-sim.com/v1
+    description: Staging server
+
+paths:
+  /modules:
+    get:
+      summary: List all available modules
+      description: Returns a list of all Physical AI modules available in the documentation
+      responses:
+        '200':
+          description: List of modules
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  modules:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Module'
+
+  /modules/{moduleId}:
+    get:
+      summary: Get module details
+      description: Returns detailed information about a specific module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module to retrieve
+      responses:
+        '200':
+          description: Module details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Module'
+        '404':
+          description: Module not found
+
+  /modules/{moduleId}/simulations:
+    get:
+      summary: List simulations in a module
+      description: Returns a list of simulation examples in the specified module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module
+      responses:
+        '200':
+          description: List of simulations in the module
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  simulations:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/SimulationExample'
+
+  /simulations/{simulationId}:
+    get:
+      summary: Get simulation example details
+      description: Returns detailed information about a specific simulation example
+      parameters:
+        - name: simulationId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the simulation example
+      responses:
+        '200':
+          description: Simulation example details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SimulationExample'
+        '404':
+          description: Simulation example not found
+
+components:
+  schemas:
+    Module:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the module
+        title:
+          type: string
+          description: Title of the module
+        description:
+          type: string
+          description: Brief description of the module
+        chapters:
+          type: array
+          items:
+            $ref: '#/components/schemas/Chapter'
+        simulation_examples:
+          type: array
+          items:
+            $ref: '#/components/schemas/SimulationExample'
+      required:
+        - id
+        - title
+        - description
+
+    Chapter:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the chapter
+        title:
+          type: string
+          description: Title of the chapter
+        content:
+          type: string
+          description: Chapter content in Markdown format
+        module_id:
+          type: string
+          description: ID of the parent module
+      required:
+        - id
+        - title
+        - content
+        - module_id
+
+    SimulationExample:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the simulation example
+        title:
+          type: string
+          description: Title of the simulation example
+        description:
+          type: string
+          description: Brief description of what the simulation demonstrates
+        type:
+          type: string
+          enum: [gazebo, unity, sensor_simulation]
+          description: Type of simulation
+        prerequisites:
+          type: array
+          items:
+            type: string
+          description: Required setup steps or dependencies
+        configuration:
+          type: string
+          description: Configuration details for the simulation
+        code_examples:
+          type: array
+          items:
+            type: string
+          description: Related code examples
+        module_id:
+          type: string
+          description: ID of the parent module
+      required:
+        - id
+        - title
+        - description
+        - type
+        - module_id

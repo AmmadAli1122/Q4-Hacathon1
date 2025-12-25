@@ -1,0 +1,184 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\g-cli\\Q4-Hacathon1\\Q4-Hacathon1\\sidebars.js",
+          "contentPath": "D:\\g-cli\\Q4-Hacathon1\\Q4-Hacathon1\\docs",
+          "contentPathLocalized": "D:\\g-cli\\Q4-Hacathon1\\Q4-Hacathon1\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "intro",
+              "title": "Introduction",
+              "description": "Welcome to the Physical AI documentation. This collection of modules will guide you through the essential concepts of bridging artificial intelligence with physical robotics systems.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/docs/intro",
+              "permalink": "/docs/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Introduction",
+                "slug": "/docs/intro"
+              },
+              "sidebar": "physicalAISidebar",
+              "next": {
+                "title": "Chapter 1: The Robotic Nervous System",
+                "permalink": "/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system"
+              }
+            },
+            {
+              "id": "physical-ai/module-1-ros2/chapter-1-robotic-nervous-system",
+              "title": "Chapter 1: ROS 2 as the Robotic Nervous System",
+              "description": "Introduction",
+              "source": "@site/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system.md",
+              "sourceDirName": "physical-ai/module-1-ros2",
+              "slug": "/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system",
+              "permalink": "/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "Chapter 1: The Robotic Nervous System"
+              },
+              "sidebar": "physicalAISidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/docs/intro"
+              },
+              "next": {
+                "title": "Chapter 2: Communication in Motion",
+                "permalink": "/docs/physical-ai/module-1-ros2/chapter-2-communication-motion"
+              }
+            },
+            {
+              "id": "physical-ai/module-1-ros2/chapter-2-communication-motion",
+              "title": "Chapter 2: Communication in Motion — Nodes, Topics, and Services",
+              "description": "Introduction",
+              "source": "@site/docs/physical-ai/module-1-ros2/chapter-2-communication-motion.md",
+              "sourceDirName": "physical-ai/module-1-ros2",
+              "slug": "/physical-ai/module-1-ros2/chapter-2-communication-motion",
+              "permalink": "/docs/physical-ai/module-1-ros2/chapter-2-communication-motion",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-1-ros2/chapter-2-communication-motion.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "Chapter 2: Communication in Motion"
+              },
+              "sidebar": "physicalAISidebar",
+              "previous": {
+                "title": "Chapter 1: The Robotic Nervous System",
+                "permalink": "/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system"
+              },
+              "next": {
+                "title": "Chapter 3: From Code to Body",
+                "permalink": "/docs/physical-ai/module-1-ros2/chapter-3-code-to-body"
+              }
+            },
+            {
+              "id": "physical-ai/module-1-ros2/chapter-3-code-to-body",
+              "title": "Chapter 3: From Code to Body — Python Agents, rclpy, and URDF",
+              "description": "Introduction",
+              "source": "@site/docs/physical-ai/module-1-ros2/chapter-3-code-to-body.md",
+              "sourceDirName": "physical-ai/module-1-ros2",
+              "slug": "/physical-ai/module-1-ros2/chapter-3-code-to-body",
+              "permalink": "/docs/physical-ai/module-1-ros2/chapter-3-code-to-body",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-1-ros2/chapter-3-code-to-body.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "Chapter 3: From Code to Body"
+              },
+              "sidebar": "physicalAISidebar",
+              "previous": {
+                "title": "Chapter 2: Communication in Motion",
+                "permalink": "/docs/physical-ai/module-1-ros2/chapter-2-communication-motion"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "physicalAISidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Physical AI",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Module 1: The Robotic Nervous System (ROS 2)",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "physical-ai/module-1-ros2/chapter-1-robotic-nervous-system"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "physical-ai/module-1-ros2/chapter-2-communication-motion"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "physical-ai/module-1-ros2/chapter-3-code-to-body"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

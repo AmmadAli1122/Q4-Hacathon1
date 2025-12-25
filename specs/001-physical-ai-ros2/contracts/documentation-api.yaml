@@ -1,0 +1,117 @@
+openapi: 3.0.0
+info:
+  title: Physical AI Documentation API
+  description: API for accessing Physical AI documentation content programmatically
+  version: 1.0.0
+servers:
+  - url: https://api.physical-ai-docs.com/v1
+    description: Production server
+  - url: https://staging-api.physical-ai-docs.com/v1
+    description: Staging server
+
+paths:
+  /modules:
+    get:
+      summary: List all available modules
+      description: Returns a list of all Physical AI modules available in the documentation
+      responses:
+        '200':
+          description: List of modules
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  modules:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Module'
+
+  /modules/{moduleId}:
+    get:
+      summary: Get module details
+      description: Returns detailed information about a specific module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module to retrieve
+      responses:
+        '200':
+          description: Module details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Module'
+        '404':
+          description: Module not found
+
+  /modules/{moduleId}/chapters:
+    get:
+      summary: List chapters in a module
+      description: Returns a list of chapters in the specified module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module
+      responses:
+        '200':
+          description: List of chapters in the module
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  chapters:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Chapter'
+
+components:
+  schemas:
+    Module:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the module
+        title:
+          type: string
+          description: Title of the module
+        description:
+          type: string
+          description: Brief description of the module
+        chapters:
+          type: array
+          items:
+            $ref: '#/components/schemas/Chapter'
+      required:
+        - id
+        - title
+        - description
+
+    Chapter:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the chapter
+        title:
+          type: string
+          description: Title of the chapter
+        content:
+          type: string
+          description: Chapter content in Markdown format
+        module_id:
+          type: string
+          description: ID of the parent module
+      required:
+        - id
+        - title
+        - content
+        - module_id

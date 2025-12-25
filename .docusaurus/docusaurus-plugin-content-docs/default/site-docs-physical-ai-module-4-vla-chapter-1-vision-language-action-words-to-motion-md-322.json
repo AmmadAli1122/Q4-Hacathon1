@@ -1,0 +1,27 @@
+{
+  "id": "physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion",
+  "title": "Chapter 1 - Vision–Language–Action — From Words to Motion",
+  "description": "Introduction",
+  "source": "@site/docs/physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion.md",
+  "sourceDirName": "physical-ai/module-4-vla",
+  "slug": "/physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion",
+  "permalink": "/docs/physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Chapter 1 - Vision–Language–Action — From Words to Motion",
+    "sidebar_label": "Chapter 1: Vision–Language–Action — From Words to Motion"
+  },
+  "sidebar": "physicalAISidebar",
+  "previous": {
+    "title": "Chapter 3: Moving with Intelligence — Navigation & Nav2",
+    "permalink": "/docs/physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2"
+  },
+  "next": {
+    "title": "Chapter 2: Voice-to-Action — Language Interfaces for Robots",
+    "permalink": "/docs/physical-ai/module-4-vla/chapter-2-voice-to-action-language-interfaces"
+  }
+}

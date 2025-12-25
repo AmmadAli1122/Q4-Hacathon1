@@ -1,0 +1,27 @@
+{
+  "id": "physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2",
+  "title": "Chapter 3 - Moving with Intelligence — Navigation & Nav2",
+  "description": "Introduction",
+  "source": "@site/docs/physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2.md",
+  "sourceDirName": "physical-ai/module-3-nvidia-isaac",
+  "slug": "/physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2",
+  "permalink": "/docs/physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Chapter 3 - Moving with Intelligence — Navigation & Nav2",
+    "sidebar_label": "Chapter 3: Moving with Intelligence — Navigation & Nav2"
+  },
+  "sidebar": "physicalAISidebar",
+  "previous": {
+    "title": "Chapter 2: Seeing the World — Perception with Isaac Sim & Isaac ROS",
+    "permalink": "/docs/physical-ai/module-3-nvidia-isaac/chapter-2-perception-isaac-sim-ros"
+  },
+  "next": {
+    "title": "Chapter 1: Vision–Language–Action — From Words to Motion",
+    "permalink": "/docs/physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion"
+  }
+}

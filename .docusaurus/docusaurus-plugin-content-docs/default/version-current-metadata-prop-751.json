@@ -1,0 +1,84 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "physicalAISidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Physical AI",
+        "items": [
+          {
+            "type": "category",
+            "label": "Module 1: The Robotic Nervous System (ROS 2)",
+            "items": [
+              {
+                "type": "link",
+                "label": "Chapter 1: The Robotic Nervous System",
+                "href": "/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system",
+                "docId": "physical-ai/module-1-ros2/chapter-1-robotic-nervous-system",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Chapter 2: Communication in Motion",
+                "href": "/docs/physical-ai/module-1-ros2/chapter-2-communication-motion",
+                "docId": "physical-ai/module-1-ros2/chapter-2-communication-motion",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Chapter 3: From Code to Body",
+                "href": "/docs/physical-ai/module-1-ros2/chapter-3-code-to-body",
+                "docId": "physical-ai/module-1-ros2/chapter-3-code-to-body",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Introduction",
+      "description": "Welcome to the Physical AI documentation. This collection of modules will guide you through the essential concepts of bridging artificial intelligence with physical robotics systems.",
+      "sidebar": "physicalAISidebar"
+    },
+    "physical-ai/module-1-ros2/chapter-1-robotic-nervous-system": {
+      "id": "physical-ai/module-1-ros2/chapter-1-robotic-nervous-system",
+      "title": "Chapter 1: ROS 2 as the Robotic Nervous System",
+      "description": "Introduction",
+      "sidebar": "physicalAISidebar"
+    },
+    "physical-ai/module-1-ros2/chapter-2-communication-motion": {
+      "id": "physical-ai/module-1-ros2/chapter-2-communication-motion",
+      "title": "Chapter 2: Communication in Motion — Nodes, Topics, and Services",
+      "description": "Introduction",
+      "sidebar": "physicalAISidebar"
+    },
+    "physical-ai/module-1-ros2/chapter-3-code-to-body": {
+      "id": "physical-ai/module-1-ros2/chapter-3-code-to-body",
+      "title": "Chapter 3: From Code to Body — Python Agents, rclpy, and URDF",
+      "description": "Introduction",
+      "sidebar": "physicalAISidebar"
+    }
+  }
+}

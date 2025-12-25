@@ -1,0 +1,110 @@
+/**
+ * Custom CSS for Physical AI Book UI Upgrade
+ * Implements enhanced typography, modular identity, and accessibility features
+ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+/* Base CSS Custom Properties for consistent theming */
+:root {
+  /* Module Accent Colors */
+  --module-ros-accent: #3b82f6;          /* ROS 2: Blue */
+  --module-digital-twin-accent: #10b981; /* Digital Twin: Green */
+  --module-ai-brain-accent: #8b5cf6;     /* AI Brain: Purple */
+  --module-vla-accent: #f59e0b;          /* VLA: Orange */
+
+  --module-ros-light: #dbeafe;           /* ROS light */
+  --module-digital-twin-light: #d1fae5;  /* Digital Twin light */
+  --module-ai-brain-light: #e9d5ff;      /* AI Brain light */
+  --module-vla-light: #fef3c7;           /* VLA light */
+
+  /* Spacing System */
+  --ifm-spacing-xs: 0.5rem;              /* 8px */
+  --ifm-spacing-sm: 0.75rem;             /* 12px */
+  --ifm-spacing: 1rem;                   /* 16px */
+  --ifm-spacing-md: 1.25rem;             /* 20px */
+  --ifm-spacing-lg: 1.5rem;              /* 24px */
+  --ifm-spacing-xl: 2rem;                /* 32px */
+  --ifm-spacing-2xl: 3rem;               /* 48px */
+  --ifm-spacing-3xl: 4rem;               /* 64px */
+
+  /* Content Max Width */
+  --ifm-container-width: 800px;          /* Optimal reading width */
+}
+
+/* Dark mode variables */
+[data-theme='dark'] {
+  --module-ros-accent: #60a5fa;          /* Lighter blue for dark mode */
+  --module-digital-twin-accent: #34d399; /* Lighter green for dark mode */
+  --module-ai-brain-accent: #a78bfa;     /* Lighter purple for dark mode */
+  --module-vla-accent: #fbbf24;          /* Lighter orange for dark mode */
+}
+
+/* Enhanced typography styles */
+html {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Content container for optimal reading width */
+.main-wrapper {
+  max-width: var(--ifm-container-width) !important;
+  margin: 0 auto;
+}
+
+/* Enhanced code block styling */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Improved table styling */
+table {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+th, td {
+  padding: var(--ifm-table-cell-padding);
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+/* Enhanced focus states for accessibility */
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Skip to content link for accessibility */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.skip-to-content:focus {
+  top: 6px;
+}

@@ -1,0 +1,27 @@
+{
+  "id": "physical-ai/module-1-ros2/chapter-3-code-to-body",
+  "title": "Chapter 3 - From Code to Body",
+  "description": "Introduction",
+  "source": "@site/docs/physical-ai/module-1-ros2/chapter-3-code-to-body.md",
+  "sourceDirName": "physical-ai/module-1-ros2",
+  "slug": "/physical-ai/module-1-ros2/chapter-3-code-to-body",
+  "permalink": "/docs/physical-ai/module-1-ros2/chapter-3-code-to-body",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/physical-ai/module-1-ros2/chapter-3-code-to-body.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Chapter 3 - From Code to Body",
+    "sidebar_label": "Chapter 3: From Code to Body"
+  },
+  "sidebar": "physicalAISidebar",
+  "previous": {
+    "title": "Chapter 2: Communication in Motion",
+    "permalink": "/docs/physical-ai/module-1-ros2/chapter-2-communication-motion"
+  },
+  "next": {
+    "title": "Chapter 1: The Digital Twin — Simulating Reality",
+    "permalink": "/docs/physical-ai/module-2-digital-twin/chapter-1-digital-twin-reality"
+  }
+}
