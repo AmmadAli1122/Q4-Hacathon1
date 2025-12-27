@@ -1,125 +1,82 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/docs-446": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
   "/docs-f35": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs-da4": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/-70d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-0-e-3-18c"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/docs/physical-ai/module-2-digital-twin/-49c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-docs-physical-ai-module-2-digital-twin-944-e2b"
+    "__comp": "17896441",
+    "content": "94405bac"
   },
   "/docs/physical-ai/module-1-ros2/chapter-1-robotic-nervous-system-d2d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-1-ros-2-chapter-1-robotic-nervous-systemb-32-9d6"
+    "__comp": "17896441",
+    "content": "b3217280"
   },
   "/docs/physical-ai/module-1-ros2/chapter-2-communication-motion-ef1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-1-ros-2-chapter-2-communication-motion-591-0df"
+    "__comp": "17896441",
+    "content": "5918856d"
   },
   "/docs/physical-ai/module-1-ros2/chapter-3-code-to-body-8e0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-1-ros-2-chapter-3-code-to-bodyc-47-58a"
+    "__comp": "17896441",
+    "content": "c47ef2f9"
   },
   "/docs/physical-ai/module-2-digital-twin/chapter-1-digital-twin-reality-79b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-2-digital-twin-chapter-1-digital-twin-reality-8-ce-92f"
+    "__comp": "17896441",
+    "content": "8ced1d58"
   },
   "/docs/physical-ai/module-2-digital-twin/chapter-2-physics-gazebo-8dd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-2-digital-twin-chapter-2-physics-gazebo-1-e-1-905"
+    "__comp": "17896441",
+    "content": "1e10420b"
   },
   "/docs/physical-ai/module-2-digital-twin/chapter-3-perception-unity-a55": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-2-digital-twin-chapter-3-perception-unity-097-268"
+    "__comp": "17896441",
+    "content": "097aa9ba"
   },
   "/docs/physical-ai/module-2-digital-twin/glossary-785": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-2-digital-twin-glossaryda-2-064"
+    "__comp": "17896441",
+    "content": "da29ffbf"
   },
   "/docs/physical-ai/module-3-nvidia-isaac/chapter-1-nvidia-isaac-intelligence-252": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-3-nvidia-isaac-chapter-1-nvidia-isaac-intelligencebbb-c45"
+    "__comp": "17896441",
+    "content": "bbb5d434"
   },
   "/docs/physical-ai/module-3-nvidia-isaac/chapter-2-perception-isaac-sim-ros-a13": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-3-nvidia-isaac-chapter-2-perception-isaac-sim-ros-98-f-2f0"
+    "__comp": "17896441",
+    "content": "98f1458a"
   },
   "/docs/physical-ai/module-3-nvidia-isaac/chapter-3-navigation-nav2-9e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-3-nvidia-isaac-chapter-3-navigation-nav-2-ace-645"
+    "__comp": "17896441",
+    "content": "ace54f6a"
   },
   "/docs/physical-ai/module-4-vla/chapter-1-vision-language-action-words-to-motion-783": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-4-vla-chapter-1-vision-language-action-words-to-motion-322-2db"
+    "__comp": "17896441",
+    "content": "322afd45"
   },
   "/docs/physical-ai/module-4-vla/chapter-2-voice-to-action-language-interfaces-15e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-4-vla-chapter-2-voice-to-action-language-interfaceseca-b7b"
+    "__comp": "17896441",
+    "content": "ecad7a9b"
   },
   "/docs/physical-ai/module-4-vla/chapter-3-capstone-autonomous-humanoid-787": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-physical-ai-module-4-vla-chapter-3-capstone-autonomous-humanoid-4-b-1-491"
+    "__comp": "17896441",
+    "content": "4b1c8aae"
   },
   "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "a7456010"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
