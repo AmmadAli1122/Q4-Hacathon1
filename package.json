@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "vercel-build": "docusaurus build"
+    "vercel-build": "docusaurus build",
+    "gh-deploy": "docusaurus deploy"
   },
   "dependencies": {
     "@mdx-js/react": "^3.0.0",
