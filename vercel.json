@@ -15,5 +15,7 @@
       "dest": "/index.html"
     }
   ],
-  "framework": "docusaurus"
+  "buildEnvironment": {
+    "NODE_VERSION": "18.x"
+  }
 }
