@@ -3,3 +3,15 @@
 build/
 .docusaurus/
 
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env*
+
+# Node.js cache
+node_modules/.cache/
+
